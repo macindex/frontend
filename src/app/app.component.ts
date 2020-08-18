@@ -30,6 +30,5 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'frontend';
-  nome = 'claudio';
-  nome2 = 'Whats going on';
+  
 }

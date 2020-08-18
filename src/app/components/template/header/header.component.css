@@ -1,12 +1,15 @@
-.header {
+.header{
 	display: flex;
 	align-items: center;
+	color: rgb(241, 229, 241);
+	
 }
 
 .header a {
 	display: flex;
 	align-items: center;
 	text-decoration: none;
+	
 }
 
 .header .logo {
