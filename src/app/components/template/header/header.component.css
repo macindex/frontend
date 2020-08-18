@@ -2,7 +2,6 @@
 	display: flex;
 	align-items: center;
 	color: rgb(241, 229, 241);
-	
 }
 
 .header a {
@@ -10,10 +9,12 @@
 	align-items: center;
 	text-decoration: none;
 	
+	
 }
 
 .header .logo {
 	max-height: 32px;
+	
 
 }
 
