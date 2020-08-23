@@ -12,7 +12,7 @@ export class ProductCrudComponent implements OnInit {
 
   ngOnInit(): void {
   }
-  createProduct(): void{
+  navigateToProductCreate(): void{
     this.router.navigate(['/products/create'])
     // console.log('Navegando...')
   }
