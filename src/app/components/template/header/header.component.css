@@ -1,11 +1,11 @@
-.mat-toolbar{
-	background: rgb(184, 180, 184);
-}
+/* .mat-toolbar{
+	/* background: rgb(184, 180, 184); 
+} */
 
 .header{
 	display: flex;
 	align-items: center;
-	color: rgb(27, 26, 27);
+	/* color: rgb(27, 26, 27); */
 }
 .header a {
 	display: flex;

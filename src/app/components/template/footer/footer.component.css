@@ -1,12 +1,9 @@
 .footer{
 	position: fixed;
 	bottom: 0;
-	
 	display: flex;
 	justify-content: flex-end;
-	background: rgb(184, 180, 184);
-	color: rgb(27, 26, 27);
-	
+	/* background: rgb(184, 180, 184); */
 }
 
 .footer > span{
