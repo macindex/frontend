@@ -32,10 +32,14 @@ showMessage(msg: string): void{
 	const url = `${this.baseUrl}/${id}`
 	return this.http.get<Product>(url)
 
-}// Aqui é implementado um método para ler por 'id'
+	}// Aqui é implementado um método para ler por 'id'
 
-update(product: Product): Observable<Product>{
+	update(product: Product): Observable<Product>{
 	const url = `${this.baseUrl}/${product.id}`
 	return this.http.put<Product>(url, product)
+	}
+	delete(id: string): Observable<Product>{
+	const url = `${this.baseUrl}/${id}`
+	return this.http.delete<Product>(url);
 	}
 }
